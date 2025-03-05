@@ -1,0 +1,468 @@
+﻿@inject HttpClient HttpClient
+
+@using GOTinforcavado.Services
+@using Microsoft.AspNetCore.Components.Forms
+@inject NavigationManager NavigationManager
+@using Shared.models
+@inject TicketService TicketService
+@using System.Security.Cryptography
+@using System.Text
+
+<style>
+    .Text {
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        height: 18px;
+        color: #12444A;
+        margin-bottom: 5px;
+    }
+
+    .CaixaTextoIncial {
+        width: 535px;
+        height: 48px;
+        border: 1px solid #D1D8D8;
+        border-radius: 8px;
+        font-family: "Sora", sans-serif;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .CaixaTextoMaior {
+        width: 535px;
+        height: 96px;
+        border: 1px solid #D1D8D8;
+        border-radius: 8px;
+        font-family: "Sora", sans-serif;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+
+    .Ticket {
+        height: 1342px;
+        background: #fff;
+        display: flex;
+        flex-direction: column; /* Organiza os elementos verticalmente */
+        /*justify-content: center;*/ /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+    }
+
+
+
+    .botaoEnviarTicket {
+        display: flex; /* Define o botão como container flex */
+        justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+        align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+        align-self: center; /* Centraliza o botão dentro do container flex do form */
+        width: 112px;
+        height: 40px;
+        margin-top: 30px;
+        font: normal normal normal 14px/18px Sora;
+        letter-spacing: 0px;
+        color: #F9F9F9;
+        background-color: #1B7C87; /* Cor de fundo para contraste */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+
+
+    .UploadZone {
+        width: 536px;
+        height: 130px;
+        border: 1px dashed #D1D8D8;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+        .UploadZone input[type="file"] {
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+    .botaoUpload {
+        display: flex; /* Define o botão como container flex */
+        justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+        align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+        align-self: center; /* Centraliza o botão dentro do container flex do form */
+        width: 154px;
+        height: 40px;
+        font: normal normal normal 14px/18px Sora;
+        letter-spacing: 0px;
+        color: #758A8A;
+        text-align: center;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+
+    form {
+        display: flex;
+        flex-direction: column; /* Organiza os campos verticalmente */
+        align-items: flex-start; /* Alinha os itens à esquerda */
+    }
+
+
+    .TextosAnteriores {
+        width: 55px;
+        height: 18px;
+        color: #758A8A;
+        opacity: 1;
+        font-family: "Sora", sans-serif;
+        margin-left: 484px;
+        white-space: nowrap;
+        margin-top: 32px;
+    }
+
+
+    .TextosAnteriores2 {
+        width: 55px;
+        height: 18px;
+        color: #758A8A;
+        opacity: 1;
+        font-family: "Sora", sans-serif;
+        margin-left: 8px;
+        white-space: nowrap;
+        margin-top: 32px;
+    }
+
+    .TextoAtual {
+        width: 117px;
+        height: 18px;
+        color: #272E2E;
+        opacity: 1;
+        font-family: "Sora", sans-serif;
+        white-space: nowrap;
+        margin-left: 48px;
+        margin-top: 32px;
+    }
+
+    .header-line1 {
+        display: flex;
+        align-items: flex-start; /* Alinha as bordas superiores */
+        width: 100%;
+    }
+
+    .header-line2 {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .SetaTras {
+        margin-left: 482px;
+        width: 24px;
+        height: 24px;
+        color: grey;
+        margin-top: 12px;
+    }
+
+    .TituloPagina {
+        width: 262px;
+        height: 45px;
+        letter-spacing: 0px;
+        color: #12444A;
+        opacity: 1;
+        font-family: "Poppins", sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        white-space: nowrap;
+        margin-left: 8px;
+        font-weight: 600;
+        padding-bottom: 72px;
+    }
+
+    .TextoDeInformacao {
+        margin-top: 8px;
+        width: 536px;
+        height: 27px;
+        letter-spacing: 0px;
+        color: #758A8A;
+        opacity: 1;
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+    }
+
+    .TextoCheck1 {
+        width: 288px;
+        height: 13px;
+        font-family: "Sora";
+        font-size: 10px;
+        text-align: left;
+        letter-spacing: 0px;
+        color: #414D4D;
+        opacity: 1;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+
+
+    .TextoCheck2 {
+        width: 159px;
+        height: 13px;
+        text-align: left;
+        font-family: "Sora";
+        font-size: 10px;
+        letter-spacing: 0px;
+        color: #414D4D;
+        opacity: 1;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+
+    .Checkmark {
+        width: 24px;
+        height: 24px;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #1B7C87;
+        border-radius: 4px;
+        background-color: #fff;
+        cursor: pointer;
+        margin-bottom: 8px;
+        margin-top: 20px;
+    }
+
+        .Checkmark::after {
+            content: "✔"; /* Símbolo de check */
+            font-size: 16px;
+            color: #1B7C87; /* Cor do check */
+            display: none;
+        }
+
+        .Checkmark.checked::after {
+            display: block;
+        }
+
+
+
+
+    .UploadedFiles {
+        margin-top: 10px;
+        width: 536px;
+    }
+
+        .UploadedFiles ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .UploadedFiles li {
+            display: flex;
+            align-items: center; /* Garante alinhamento vertical */
+            justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+            font-family: "Sora", sans-serif;
+            font-size: 14px;
+            color: #414D4D;
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+
+
+
+    .RemoveFile {
+        color: #ccc; /* Cinza */
+        cursor: pointer;
+        font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .RemoveFile:hover {
+            color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+        }
+
+</style>
+
+<header class="Ticket">
+    <div class="header-line1">
+        <a href="/" style="text-decoration:none">
+            <p class="TextosAnteriores">Inicio ></p>
+        </a>
+        <a href="/Comercial" style="text-decoration:none">
+            <p class="TextosAnteriores2">Comercial ></p>
+        </a>
+        <p class="TextoAtual">IT</p>
+    </div>
+
+    <div class="header-line2">
+        <a href="/Comercial">
+            <div class="SetaTras">
+                <span class="material-symbols-outlined">arrow_back</span>
+            </div>
+        </a>
+        <div class="TituloPagina">IT</div>
+    </div>
+    <EditForm Model="newTicket" OnValidSubmit="HandleSubmit" enctype="multipart/form-data">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label class="Text">Nome:<br /></label>
+            <InputText @bind-Value="newTicket.Nome" class="CaixaTextoIncial" placeholder="Introduza o seu nome" />
+        </div>
+
+        <div class="form-group">
+            <label class="Text">Empresa:<br /></label>
+            <InputText @bind-Value="newTicket.Empresa" class="CaixaTextoIncial" placeholder="Introduza a sua empresa" />
+        </div>
+
+        <div class="form-group">
+            <label class="Text">Email:<br /></label>
+            <InputText @bind-Value="newTicket.Email" class="CaixaTextoIncial" placeholder="Introduza o seu email" />
+        </div>
+
+        <div class="form-group">
+            <label class="Text">Telefone:<br /></label>
+            <InputText @bind-Value="newTicket.Telefone" class="CaixaTextoIncial" placeholder="Introduza o seu telefone" />
+        </div>
+
+        <div class="form-group">
+            <label class="Text">Assunto:<br /></label>
+            <InputText @bind-Value="newTicket.Assunto" class="CaixaTextoIncial" placeholder="Introduza o assunto" />
+        </div>
+
+        <div class="form-group">
+            <label class="Text">Mensagem:<br /></label>
+            <InputTextArea @bind-Value="newTicket.Mensagem" class="CaixaTextoMaior" placeholder="Introduza a sua mensagem" />
+        </div>
+
+        <div class="form-group UploadZone">
+            <InputFile OnChange="HandleFileSelected" id="Ficheiro" multiple style="opacity: 0; position: absolute; width: 100%; height: 100%; cursor: pointer;" />
+            <label for="Ficheiro" class="botaoUpload">
+                <span class="material-symbols-outlined">content_paste</span>
+                Colar Ficheiro
+            </label>
+        </div>
+
+        @if (UploadedFiles.Any())
+        {
+            <div class="UploadedFiles">
+                <ul>
+                    @foreach (var file in UploadedFiles)
+                    {
+                        var iconPath = GetFileIcon(file.Name);
+                        <li class="file-item">
+                            <img src="@iconPath" alt="File Icon" class="file-icon" />
+                            <div class="file-info">
+                                <span>@file.Name</span>
+                                <span class="file-size">@(file.Size / 1024) KB</span>
+                            </div>
+                            <span class="RemoveFile material-symbols-outlined" @onclick="() => RemoveFile(file)">close</span>
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <div class="form-group" style="display: flex; flex-direction: column; gap: 5px;">
+            <div style="display: flex; align-items: center;">
+                <div class="@GetCheckmarkClass(isCheck1Checked)" @onclick="ToggleCheck1"></div>
+                <label class="TextoCheck1">Autorizo a Inforcávado a usar meus dados para contacto.</label>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <div class="@GetCheckmarkClass(isCheck2Checked)" @onclick="ToggleCheck2"></div>
+                <label class="TextoCheck2">Lembrar-me para a próxima vez</label>
+            </div>
+        </div>
+
+        <button type="submit" class="botaoEnviarTicket">Criar Ticket</button>
+    </EditForm>
+</header>
+
+@code {
+    private Ticket newTicket = new Ticket
+        {
+            Departamento = "Comercial IT"
+        };
+
+    private List<IBrowserFile> UploadedFiles = new();
+    private bool isCheck1Checked = false;
+    private bool isCheck2Checked = false;
+
+
+    private async Task HandleSubmit()
+    {
+        newTicket.Id = GenerateFixedRandomId(newTicket.Nome ?? "");
+
+        using var content = new MultipartFormDataContent();
+        content.Add(new StringContent(newTicket.Nome ?? ""), "Nome");
+        content.Add(new StringContent(newTicket.Empresa ?? ""), "Empresa");
+        content.Add(new StringContent(newTicket.Email ?? ""), "Email");
+        content.Add(new StringContent(newTicket.Telefone ?? ""), "Telefone");
+        content.Add(new StringContent(newTicket.Assunto ?? ""), "Assunto");
+        content.Add(new StringContent(newTicket.Mensagem ?? ""), "Mensagem");
+        content.Add(new StringContent(newTicket.Departamento ?? ""), "Departamento");
+
+        // Adicionar os arquivos ao FormData
+        foreach (var file in UploadedFiles)
+        {
+            var stream = file.OpenReadStream();
+            var streamContent = new StreamContent(stream);
+            streamContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(file.ContentType);
+            content.Add(streamContent, "ficheiros", file.Name);
+        }
+
+
+        NavigationManager.NavigateTo("/SucessoTicket");
+
+        // Enviar para a API com o HttpClient injetado
+        var response = await HttpClient.PostAsync("https://localhost:7111/api/Ticket", content);
+
+        // Redirecionar imediatamente para a página de sucess
+    }
+
+
+    private void ToggleCheck1() => isCheck1Checked = !isCheck1Checked;
+    private void ToggleCheck2() => isCheck2Checked = !isCheck2Checked;
+
+    private string GetCheckmarkClass(bool isChecked) => isChecked ? "Checkmark checked" : "Checkmark";
+
+
+
+    private void HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        UploadedFiles = e.GetMultipleFiles().ToList();
+    }
+
+    private void RemoveFile(IBrowserFile file)
+    {
+        UploadedFiles.Remove(file);
+    }
+
+    private string GetFileIcon(string fileName)
+    {
+        var extension = Path.GetExtension(fileName).ToLower();
+        return extension switch
+        {
+            ".txt" or ".doc" or ".docx" => "imagens/i-docs-text.svg",
+            ".xls" or ".xlsx" => "imagens/i-excel.svg",
+            ".png" or ".jpg" or ".jpeg" or ".gif" or ".bmp" => "imagens/i-preview-artdocs.svg",
+            _ => "imagens/i-other.svg"
+        };
+    }
+
+    // Gerar ID único baseado no nome + timestamp
+    private static string GenerateFixedRandomId(string input)
+    {
+        using (var sha256 = SHA256.Create())
+        {
+            byte[] hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(input + DateTime.UtcNow.Ticks));
+            return BitConverter.ToString(hashBytes.Take(8).ToArray()).Replace("-", "").ToLower();
+        }
+    }
+}

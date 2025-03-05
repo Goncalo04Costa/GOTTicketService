@@ -1,0 +1,190 @@
+﻿.footer {
+    height: 413px;
+    background: #0D3439;
+    display: flex;
+    padding: 48px;
+    justify-content: center; 
+}
+
+.footersec {
+    display: flex;             
+    flex-direction: row;
+    align-items: flex-start;  
+    justify-content: space-between; 
+    width: 100%;               
+    padding-left: 92px;       
+}
+
+.footeresq {
+    display: flex;
+    flex-direction: column;
+    padding-top: 52px; 
+}
+
+
+.logoGOT {
+    padding-bottom: 9px;
+}
+
+.ComecaAqui {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6ACFC7;
+    padding-bottom: 42px;
+}
+
+
+.p ComecaAqui {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6ACFC7;
+    padding-bottom: 42px;
+}
+
+
+.PowerBy {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.p PowerBy {
+    margin: 0;
+    font-family: "Sora" ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.logoInforcavado {
+    padding-bottom: 16px;
+}
+
+
+.Infos {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.p Infos {
+    margin: 0;
+    font-family: "Sora" ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.Follow {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p Follow {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+
+.EstamosEm {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p EstamosEm {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+.Localizacao {
+    letter-spacing: 0px;
+    color: #F9F9FF;
+    font-family: "Poppins";
+    width: 156px;
+    height: 73px;
+}
+
+
+
+
+
+.Contacnos {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p Contacnos {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+}
+
+
+.Contacto {
+    letter-spacing: 0px;
+    color: #F9F9FF;
+    font-family: "Poppins";
+    width: 224px;
+    height: 24px;
+}
+
+
+.icon {
+    width: 40px;
+    height: 40px;
+ margin-top: auto;
+  }

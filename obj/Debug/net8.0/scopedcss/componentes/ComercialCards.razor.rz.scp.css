@@ -1,0 +1,134 @@
+.ApoioPage[b-nilh05x4c5] {
+    height: 710px;
+    background: #fff;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+.header-line1[b-nilh05x4c5] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-nilh05x4c5] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.SetaTras[b-nilh05x4c5] {
+    margin-left: 332px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-nilh05x4c5] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+/* Container principal com 323px de padding lateral */
+.container-boxes[b-nilh05x4c5] {
+    width: 100%;
+    padding: 0 323px;
+    box-sizing: border-box;
+}
+
+/* Cada linha de boxes com espaçamento horizontal de 16px */
+.boxes[b-nilh05x4c5] {
+    display: flex;
+    gap: 16px;
+}
+
+/* Adiciona um espaçamento superior de 60px apenas na primeira linha de boxes */
+.container-boxes .boxes:first-child[b-nilh05x4c5] {
+    margin-top: 60px;
+}
+
+/* Espaçamento vertical de 16px entre as demais linhas de boxes */
+.boxes + .boxes[b-nilh05x4c5] {
+    margin-top: 16px;
+}
+
+.box[b-nilh05x4c5] {
+    width: 352px;
+    height: 245px;
+    background: #E8F2F3;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+.box-img[b-nilh05x4c5] {
+    width: 320px;
+    height: 128px;
+    margin: 16px 16px 102px 16px;
+}
+
+.box-title[b-nilh05x4c5] {
+    width: 126px;
+    height: 33px;
+    margin-top: -94px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    white-space: nowrap;
+    letter-spacing: 0;
+    color: #272E2E;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 16px;
+    font-weight: 500;
+}
+
+.box-text[b-nilh05x4c5] {
+    width: 318px;
+    height: 36px;
+    margin-top: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #414D4D;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 16px;
+    font-weight: 300;
+}
+
+
+.TextosAnteriores[b-nilh05x4c5] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextoAtual[b-nilh05x4c5] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 8px;
+}

@@ -1,0 +1,311 @@
+﻿@inject HttpClient HttpClient
+
+@using GOTinforcavado.Services
+@using Microsoft.AspNetCore.Components.Forms
+@inject NavigationManager NavigationManager
+@using Shared.models
+@inject TicketService TicketService
+@using System.Security.Cryptography
+@using System.Text
+@using System.Globalization;
+@using System.Text
+@using System.Text.RegularExpressions
+
+
+<style>
+    .AcompanhaTicket {
+        height: 1270px;
+        background-color: white;
+    }
+
+    .TituloAcompnha {
+        padding-top: 40px;
+        width: 476px;
+        height: 46px;
+        color: #12444A;
+        opacity: 1;
+        font-family: "Poppins";
+        font-size: 32px;
+        font-weight: 700;
+        margin-left: 324px;
+        white-space: nowrap;
+    }
+
+    .TextoInformativoAcompanhamento {
+        width: 717px;
+        height: 46px;
+        letter-spacing: 0px;
+        color: #414D4D;
+        opacity: 1;
+        margin-left: 324px;
+        font-family: "Sora";
+        font-size: "18px";
+    }
+
+    .InputWrapper {
+        position: relative;
+        width: 720px;
+        height: 48px;
+        margin-left: 324px;
+    }
+
+    .caixaDETexto {
+        width: 720px;
+        height: 48px;
+        background: #FFFFFF;
+        border: 1px solid #D1D8D8;
+        border-radius: 8px;
+        opacity: 1;
+    }
+
+    .BotaoSubscrever {
+        position: absolute;
+        top: 4px;
+        left: calc(100% - 113px + 4px);
+        bottom: 4px;
+        width: 113px;
+        height: 40px;
+        background: #1B7C87;
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    .ticket-info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-left: 330px;
+        padding-top: 56px;
+    }
+
+    .ticketcode, .ticketassunto {
+        letter-spacing: 0px;
+        color: #0D3439;
+        opacity: 1;
+        font-family: "Poppins";
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .ticketMensagem {
+        margin-left: 330px;
+        width: 628px;
+        height: 35px;
+        font-family: "Sora";
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #414D4D;
+        opacity: 1;
+        margin-top: 8px;
+        white-space: nowrap;
+    }
+
+    .ticketMensagem {
+        margin-left: 330px;
+        width: 58px;
+        height: 14px;
+        font-family: "Sora";
+        font-size: 11px;
+        letter-spacing: 0px;
+        color: #758A8A;
+        opacity: 1;
+        margin-top: 8px;
+    }
+
+    .ticket-detalhes {
+        display: flex;
+        justify-content: space-between;
+        width: 720px;
+        margin-left: 330px;
+        margin-top: 8px;
+        font-family: "Sora";
+        font-size: 13px;
+        color: #414D4D;
+        opacity: 1;
+    }
+
+    .caixaComentarios {
+        background: #E8F2F380;
+        width: 720px;
+        margin-left: 330px;
+    }
+
+    .semmaisdados {
+        width: 124px;
+        height: 13px;
+        letter-spacing: 0px;
+        color: #758A8A;
+        opacity: 1;
+        font-family: "Sora";
+        font-size: 10px;
+        padding-bottom:24px;
+        margin-left: 290px;
+        margin-right: 290px;
+    }
+
+    .criouticket {
+        width: 688px;
+        height: 32px;
+        display: inline-flex;
+        align-items: center; /* Alinha os itens (ponto e username) verticalmente no centro */
+    }
+
+    .point {
+        width: 5px;
+        height: 19px;
+        text-align: left;
+        font-family: "Poppins";
+        letter-spacing: 0px;
+        color: #192356;
+        opacity: 1;
+        margin-left: 18px;
+    }
+
+    .username {
+        margin-top: 10px;
+        width: auto; /* Deixe o tamanho do nome ser automático */
+        height: 19px;
+        padding-left: 6px;
+        letter-spacing: 0px;
+        color: #226589;
+        opacity: 1;
+        font-size: 10px;
+        font-family: "Poppins";
+    }
+
+    .textocriouticket {
+        margin-top: 6px;
+        width: auto;
+        height: 19px;
+        padding-left: 0px;
+        letter-spacing: 0px;
+        color: #192356;
+        opacity: 1;
+        font-size: 10px;
+        font-family: "Poppins";
+        margin-left: 4px; 
+    }
+
+
+    .horariocriacaoticket {
+        margin-top: 10px;
+        width: auto;
+        padding-right: 0; /* Alinha o horário à direita */
+        margin-right: 100px; /* Adiciona a distância de 100px da borda direita */
+        color: #19235699;
+        font-size: 13px;
+        font-family: "Sora";
+    }
+
+
+</style>
+
+<header class="AcompanhaTicket">
+    <p class="TituloAcompnha">
+        Acompanhamento de tickets
+    </p>
+    <p class="TextoInformativoAcompanhamento">
+        O número do seu ticket permite-nos fornecer-lhe informações atualizadas sobre o estado do pedido que efetuou.
+    </p>
+
+    <div class="InputWrapper">
+        <input @bind="codigo" type="text" class="caixaDETexto" placeholder="Introduza o ID do ticket aqui" />
+        <button class="BotaoSubscrever" @onclick="ProcurarTicket">Procurar</button>
+    </div>
+
+    @if (ticketEncontrado != null)
+{
+    <div class="ticket-info">
+        <div class="ticketcode">#@ticketEncontrado.Id</div>
+        <div class="ticketassunto">@ticketEncontrado.Assunto</div>
+    </div>
+
+        <div class="ticketMensagem">@ticketEncontrado.Mensagem</div>
+        <div class="ticketMensagem">@ticketEncontrado.Data.ToString("dd/MM/yyyy")</div>
+
+        <hr style=" width: 720px; margin-left: 330px;color: #758A8A;   margin-top: 8px; " />
+        
+        <div class="ticket-detalhes">
+            <span class="ticket-info-item"><strong>Nome <br /></strong> @ticketEncontrado.Nome</span>
+            <span class="ticket-info-item"><strong>Email<br /></strong> @ticketEncontrado.Email</span>
+            <span class="ticket-info-item"><strong>Empresa<br /></strong> @ticketEncontrado.Empresa</span>
+            <span class="ticket-info-item"><strong>Telefone<br /></strong> @ticketEncontrado.Telefone</span>
+        </div>
+
+        <div class="caixaComentarios">
+
+            <div class="criouticket">
+                <div class="point"> • </div>
+                <div class="username">@FormatarNome(ticketEncontrado.Nome)</div>
+                <div class="textocriouticket">criou o ticket</div>
+                <div class="horariocriacaoticket">@ticketEncontrado.Data.ToString("HH:mm")</div>
+            </div>
+            <div class="semmaisdados">Não existem mais dados</div>
+        </div>
+}
+@if (!string.IsNullOrEmpty(erro))
+{
+        <div class="alert alert-danger" style="margin-left: 324px; margin-top: 20px;">@erro</div>
+}
+</header>
+
+
+
+@code {
+    private string codigo;
+    private Ticket ticketEncontrado;
+    private string erro;
+
+    private async Task ProcurarTicket()
+    {
+        erro = null;
+        ticketEncontrado = null;
+
+        try
+        {
+            ticketEncontrado = await TicketService.GetTicketByIdAsync(codigo);
+            if (ticketEncontrado == null)
+            {
+                erro = "Ticket não encontrado.";
+            }
+        }
+        catch (Exception ex)
+        {
+            erro = $"Erro ao procurar ticket: {ex.Message}";
+        }
+    }
+
+    private string FormatarNome(string nome)
+    {
+        // Lista de palavras a remover
+        var palavrasRemover = new[] { "de", "da", "do", "dos", "das" };
+
+        // Normaliza o nome
+        var normalizedString = nome.Normalize(NormalizationForm.FormD);
+        var stringBuilder = new StringBuilder();
+
+        // Remove caracteres especiais
+        foreach (var c in normalizedString)
+        {
+            if (CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark)
+            {
+                stringBuilder.Append(c);
+            }
+        }
+
+        // Divide o nome em palavras
+        var nomeArray = stringBuilder.ToString().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+        // Filtra as palavras, removendo apenas aquelas que estão na lista "palavrasRemover"
+        var nomeFinalArray = nomeArray.Where(word => !palavrasRemover.Contains(word.ToLower())).ToArray();
+
+        // Junta as palavras novamente
+        var nomeFinal = string.Join(" ", nomeFinalArray);
+
+    
+        return "@" + nomeFinal.Replace(" ", "").ToLower(); 
+}
+}

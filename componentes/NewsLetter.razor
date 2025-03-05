@@ -1,0 +1,82 @@
+﻿<style>
+    .News {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza horizontalmente todos os filhos */
+        justify-content: center; /* Centraliza verticalmente */
+        height: 282px;
+        background: #4C969E;
+        padding: 0 130px;
+    }
+
+    .TituloNewsLetter {
+        white-space: nowrap;
+        font-family: "Poppins";
+        font-size: 32px;
+        font-weight: 600;
+        color: #0D0F0F;
+        width: 684px;
+        height: 79px;
+        text-align: center; /* Texto centralizado */
+        padding-bottom: 16px;
+    }
+
+    .Subtitulo {
+        width: 578px;
+        height: 22px;
+        color: #F2F4F4;
+        font-family: "Sora";
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center; /* Texto centralizado */
+        padding-bottom: 32px;
+    }
+
+    /* Container da caixa de e-mail centralizada */
+    .InputWrapper {
+        position: relative;
+        width: 538px;
+        height: 48px;
+        margin: 0 auto; /* Centraliza o container horizontalmente */
+    }
+
+    .caixaDETexto {
+        width: 538px;
+        height: 48px;
+        background: #FFFFFF;
+        border: 1px solid #D1D8D8;
+        border-radius: 8px;
+        opacity: 1;
+    }
+    /* Botão posicionado dentro da caixa, a 4px da direita */
+    .BotaoSubscrever {
+        position: absolute;
+        top: 4px;
+        left: calc(100% - 113px - 4px);
+        bottom: 4px;
+        width: 113px;
+        height: 40px;
+        background: #1B7C87;
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        cursor: pointer;
+        opacity: 1;
+    }
+
+</style>
+
+<header class="News">
+    <div class="TituloNewsLetter">
+        Newsletter Inforcávado
+    </div>
+
+    <div class="Subtitulo">
+        Novidades sobre os nossos softwares, legislação e muito mais.
+    </div>
+
+    <div class="InputWrapper">
+        <input type="text" class="caixaDETexto" placeholder="Introduza o seu e-mail aqui">
+        <button class="BotaoSubscrever">Subscrever</button>
+    </div>
+</header>

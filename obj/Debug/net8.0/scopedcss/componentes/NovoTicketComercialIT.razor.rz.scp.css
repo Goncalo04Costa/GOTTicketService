@@ -1,0 +1,300 @@
+.Ticket[b-n163obtqxv] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-n163obtqxv] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-n163obtqxv] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-n163obtqxv] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-n163obtqxv] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 40px;
+    margin-top: 30px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-n163obtqxv] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-n163obtqxv] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-n163obtqxv] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+
+.form-group[b-n163obtqxv] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    margin-bottom: 15px;
+}
+
+
+.TextosAnteriores[b-n163obtqxv] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextosAnteriores2[b-n163obtqxv] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.TextoAtual[b-n163obtqxv] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 48px;
+}
+
+.header-line1[b-n163obtqxv] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-n163obtqxv] {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.SetaTras[b-n163obtqxv] {
+    margin-left: 482px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-n163obtqxv] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.TextoDeInformacao[b-n163obtqxv] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-n163obtqxv] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-n163obtqxv] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-n163obtqxv] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-n163obtqxv]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-n163obtqxv]::after {
+        display: block;
+    }
+
+.UploadedFiles ul[b-n163obtqxv] {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+.file-item[b-n163obtqxv] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.file-size[b-n163obtqxv] {
+    font-size: 0.85em;
+    color: gray;
+}
+
+.UploadedFiles[b-n163obtqxv] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-n163obtqxv] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-n163obtqxv] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-n163obtqxv] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-n163obtqxv] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
+
+
+
+.file-info[b-n163obtqxv] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.file-icon[b-n163obtqxv] {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}

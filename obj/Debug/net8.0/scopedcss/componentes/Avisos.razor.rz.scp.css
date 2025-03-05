@@ -1,0 +1,26 @@
+.aviso[b-wl8ryga4ls] {
+    height: 32px;
+    background: #0D3439;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Mantém o texto centralizado */
+    position: relative;
+    padding: 0 130px;
+}
+
+.texto[b-wl8ryga4ls] {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: underline white;
+}
+
+.fechar-aviso[b-wl8ryga4ls] {
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    right: 142px; /* Fixa o botão a 142px da direita */
+}

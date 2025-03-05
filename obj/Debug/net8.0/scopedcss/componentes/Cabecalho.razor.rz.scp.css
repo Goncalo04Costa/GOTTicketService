@@ -1,0 +1,71 @@
+/*#region Componentes.css*/
+
+.cabecalho[b-yhqzdqbb95] {
+    height: 72px;
+    background: #E8F2F3;
+  /*  width: 100%;*/
+    display: flex;
+    align-items: center;
+    padding: 0 130px;
+    justify-content: space-between;
+}
+
+.cabecalhoesq[b-yhqzdqbb95] 
+{
+display: flex;
+align-items: center;
+}
+
+.logoGOT[b-yhqzdqbb95] {
+  padding-right: 20px;
+}
+
+.byinforcavadologo[b-yhqzdqbb95] {
+    display: flex;
+    flex-direction: column;
+}
+
+.byInforcavado[b-yhqzdqbb95] {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    color: #17585F /*var(--primary-300 )*/;
+}
+
+
+.verticket[b-yhqzdqbb95] {
+    width: fit-content;
+    height: 40px;
+    background: #17585F;
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 16px 0 16px;
+    margin-right: 4px;
+}
+
+
+
+    .verticket p[b-yhqzdqbb95], .website p[b-yhqzdqbb95] {
+        font-family: "Sora";
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+
+.website[b-yhqzdqbb95] {
+    width: fit-content;
+    border: 1px solid #B2BEBE;
+    height: 40px;
+    color: var(--neutral-500);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 16px 0 16px;
+}
+
+

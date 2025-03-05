@@ -1,0 +1,49 @@
+.cookie[b-i103gbv6iu] {
+    height: 56px;
+    background: #D1F0EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 130px;
+}
+
+.texto-container[b-i103gbv6iu] {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.texto[b-i103gbv6iu] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #0D3439;
+}
+
+.sublinhado[b-i103gbv6iu] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #1B7C87;
+    text-decoration: underline #1B7C87;
+}
+
+.fechar-aviso[b-i103gbv6iu] {
+    position: absolute;
+    right: 130px;
+    width: 116px;
+    height: 40px;
+    top: 50%;
+    color: #3A726D;
+    transform: translateY(-50%);
+    background-color: #F0FAF9;
+    border: none;
+    border-radius: 8px;
+    font-family: "Sora";
+    font-size: 14px;
+    color: #0D3439;
+    cursor: pointer;
+}

@@ -1,0 +1,209 @@
+﻿@page "/apoiocards"
+
+
+<style>
+    .ApoioPage {
+        height: 710px;
+        background: #fff;
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+    }
+
+
+    .header-line1 {
+        display: flex;
+        align-items: flex-start; /* Alinha as bordas superiores */
+        width: 100%;
+    }
+
+    .header-line2 {
+        display: flex;
+        align-items: flex-start; /* Alinha as bordas superiores */
+        width: 100%;
+    }
+
+    .SetaTras {
+        margin-left: 332px;
+        width: 24px;
+        height: 24px;
+        color: grey;
+        margin-top: 12px;
+    }
+
+    .TituloPagina {
+        width: 262px;
+        height: 45px;
+        letter-spacing: 0px;
+        color: #12444A;
+        opacity: 1;
+        font-family: "Poppins", sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        white-space: nowrap;
+        margin-left: 8px;
+        font-weight: 600;
+    }
+
+    /* Container principal com 323px de padding lateral */
+    .container-boxes {
+        width: 100%;
+        padding: 0 323px;
+        box-sizing: border-box;
+    }
+
+    /* Cada linha de boxes com espaçamento horizontal de 16px */
+    .boxes {
+        display: flex;
+        gap: 16px;
+    }
+
+    /* Adiciona um espaçamento superior de 60px apenas na primeira linha de boxes */
+    .container-boxes .boxes:first-child {
+        margin-top: 60px;
+    }
+
+    /* Espaçamento vertical de 16px entre as demais linhas de boxes */
+    .boxes + .boxes {
+        margin-top: 16px;
+    }
+
+    .box {
+        width: 352px;
+        height: 245px;
+        background: #E8F2F3;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    .box-img {
+        width: 320px;
+        height: 128px;
+        margin: 16px 16px 102px 16px;
+    }
+
+    .box-title {
+        width: 126px;
+        height: 33px;
+        margin-top: -94px;
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        white-space: nowrap;
+        letter-spacing: 0;
+        color: #272E2E;
+        text-align: left;
+        align-self: flex-start;
+        padding-left: 16px;
+        font-weight: 500;
+    }
+
+    .box-text {
+        width: 318px;
+        height: 36px;
+        margin-top: 8px;
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        letter-spacing: 0;
+        color: #414D4D;
+        text-align: left;
+        align-self: flex-start;
+        padding-left: 16px;
+        font-weight: 300;
+    }
+
+
+    .TextosAnteriores {
+        width: 55px;
+        height: 18px;
+        color: #758A8A;
+        opacity: 1;
+        font-family: "Sora", sans-serif;
+        margin-left: 324px;
+        white-space: nowrap;
+    }
+
+
+    .TextoAtual {
+        width: 117px;
+        height: 18px;
+        color: #272E2E;
+        opacity: 1;
+        font-family: "Sora", sans-serif;
+        white-space: nowrap;
+        margin-left: 8px;
+    }
+</style>
+<div class="ApoioPage">
+    <header class="apoiocards">
+        <div class="header-line1">
+             <a href="/" style="text-decoration:none">
+            <p class="TextosAnteriores">
+                Inicio >
+            </p>
+            </a>
+
+            <p class="TextoAtual">
+                Apoio ao cliente
+            </p>
+
+        </div>
+
+        <div class="header-line2">
+            <a href="/">
+            <div class="SetaTras">
+                <span class="material-symbols-outlined">
+                    arrow_back
+                </span>
+            </div>
+            </a>
+            <div class="TituloPagina">
+                Apoio ao cliente
+            </div>
+        </div>
+        <div class="container-boxes">
+            <!-- Primeira linha de boxes -->
+            <div class="boxes">
+                <div class="box">
+                    <a href="/TicketApoioPROtextil">
+                    <img src="/imagens/Protextil- Prioritário Horizontal Cores (positivo).svg" alt="Imagem Box 2" class="box-img">
+                     </a>
+                    <h2 class="box-title">PROtextil®</h2>
+                    <p class="box-text">ERP para a Indústria Têxtil</p>
+                </div>
+                <div class="box">
+                    <a href="TicketApoioATOMgest">
+                    <img src="/imagens/atomgest- Prioritária Horizontal Cores (positiva.svg" alt="Imagem Box 2" class="box-img">
+                    </a>
+                    <h2 class="box-title">ATOMgest</h2>
+                    <p class="box-text">Software de gestão comercial </p>
+                </div>
+            </div>
+
+            <!-- Segunda linha de boxes com espaçamento vertical de 16px -->
+            <div class="boxes">
+                <div class="box">
+                    <a href="TicketApoioHeadline">
+                    <img src="/imagens/it.PNG" alt="Imagem Box 2" class="box-img" style="background-color:#0D3439; border-radius: 8px">
+                    </a>
+                    <h2 class="box-title">Headline </h2>
+                    <p class="box-text">Problemas técnicos, redes, instalação etc.</p>
+                </div>
+                <div class="box">
+                    <a href="TicketApoioFinanceiro">
+                    <img src="/imagens/financeiro.PNG" alt="Imagem Box 2" class="box-img" style="background-color:#0D3439; border-radius: 8px">
+                    </a>
+                    <h2 class="box-title">Financeiro</h2>
+                    <p class="box-text">Pagamentos, faturas, contabilidade, etc.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+@code {
+    // Aqui você pode adicionar a lógica C# do componente, se necessário.
+}

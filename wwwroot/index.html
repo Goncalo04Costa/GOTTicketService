@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>BlazorApp-empty1</title>
+    <base href="/" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="BlazorApp-empty1.styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div id="app">
+        <div class="loading-container">
+            <div class="title">Growing together.</div>
+            <div class="subtitle">A solução começa aqui!</div>
+            <img src="imagens/Login GOT image (896x1017).png" style="height:750px" alt="Carregando..." />
+            <p>Carregando, por favor aguarde...</p>
+        </div>
+    </div>
+
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+
+    <style>
+        body {
+            background-color: #E8F2F3;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .loading-container {
+            position: relative;
+            text-align: left;
+        }
+
+        .title {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            font-size: 66px;
+            font-weight: 600;
+            color: #12444A;
+            margin: 0;
+        }
+
+        .subtitle {
+            position: absolute;
+            top: calc(50% + 86px); 
+            right: 50px;
+            font-size: 36px;
+            font-weight: 300;
+            color: #414D4D;
+            margin: 0;
+        }
+
+    </style>
+</body>
+
+</html>

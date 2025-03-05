@@ -1,0 +1,3040 @@
+/* /componentes/ApoioCards.razor.rz.scp.css */
+.ApoioPage[b-9isrxdypiv] {
+    height: 710px;
+    background: #fff;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+.header-line1[b-9isrxdypiv] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-9isrxdypiv] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.SetaTras[b-9isrxdypiv] {
+    margin-left: 332px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-9isrxdypiv] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+/* Container principal com 323px de padding lateral */
+.container-boxes[b-9isrxdypiv] {
+    width: 100%;
+    padding: 0 323px;
+    box-sizing: border-box;
+}
+
+/* Cada linha de boxes com espaçamento horizontal de 16px */
+.boxes[b-9isrxdypiv] {
+    display: flex;
+    gap: 16px;
+}
+
+/* Adiciona um espaçamento superior de 60px apenas na primeira linha de boxes */
+.container-boxes .boxes:first-child[b-9isrxdypiv] {
+    margin-top: 60px;
+}
+
+/* Espaçamento vertical de 16px entre as demais linhas de boxes */
+.boxes + .boxes[b-9isrxdypiv] {
+    margin-top: 16px;
+}
+
+.box[b-9isrxdypiv] {
+    width: 352px;
+    height: 245px;
+    background: #E8F2F3;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+.box-img[b-9isrxdypiv] {
+    width: 320px;
+    height: 128px;
+    margin: 16px 16px 102px 16px;
+}
+
+.box-title[b-9isrxdypiv] {
+    width: 126px;
+    height: 33px;
+    margin-top: -94px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    white-space: nowrap;
+    letter-spacing: 0;
+    color: #272E2E;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 16px;
+    font-weight: 500;
+}
+
+.box-text[b-9isrxdypiv] {
+    width: 318px;
+    height: 36px;
+    margin-top: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #414D4D;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 16px;
+    font-weight: 300;
+}
+
+
+.TextosAnteriores[b-9isrxdypiv] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextoAtual[b-9isrxdypiv] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 8px;
+}
+/* /componentes/Avisos.razor.rz.scp.css */
+.aviso[b-wl8ryga4ls] {
+    height: 32px;
+    background: #0D3439;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Mantém o texto centralizado */
+    position: relative;
+    padding: 0 130px;
+}
+
+.texto[b-wl8ryga4ls] {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: underline white;
+}
+
+.fechar-aviso[b-wl8ryga4ls] {
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    right: 142px; /* Fixa o botão a 142px da direita */
+}
+/* /componentes/Cabecalho.razor.rz.scp.css */
+/*#region Componentes.css*/
+
+.cabecalho[b-yhqzdqbb95] {
+    height: 72px;
+    background: #E8F2F3;
+  /*  width: 100%;*/
+    display: flex;
+    align-items: center;
+    padding: 0 130px;
+    justify-content: space-between;
+}
+
+.cabecalhoesq[b-yhqzdqbb95] 
+{
+display: flex;
+align-items: center;
+}
+
+.logoGOT[b-yhqzdqbb95] {
+  padding-right: 20px;
+}
+
+.byinforcavadologo[b-yhqzdqbb95] {
+    display: flex;
+    flex-direction: column;
+}
+
+.byInforcavado[b-yhqzdqbb95] {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    color: #17585F /*var(--primary-300 )*/;
+}
+
+
+.verticket[b-yhqzdqbb95] {
+    width: fit-content;
+    height: 40px;
+    background: #17585F;
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 16px 0 16px;
+    margin-right: 4px;
+}
+
+
+
+    .verticket p[b-yhqzdqbb95], .website p[b-yhqzdqbb95] {
+        font-family: "Sora";
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+
+.website[b-yhqzdqbb95] {
+    width: fit-content;
+    border: 1px solid #B2BEBE;
+    height: 40px;
+    color: var(--neutral-500);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 16px 0 16px;
+}
+
+
+/* /componentes/CardsSpace.razor.rz.scp.css */
+.card[b-w408s0xbqx] {
+    height: 555px;
+    background: #fff;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.cardsec[b-w408s0xbqx] {
+    display: flex; /* Adiciona o flexbox ao cardsec */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Garante que os itens sejam centralizados horizontalmente */
+}
+
+.textoinicial[b-w408s0xbqx] {
+    padding-top: 28px;
+    white-space: nowrap;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    color: #12444A;
+    width: 278px;
+    height: 45px;
+    text-align: center; /* Garante que o texto fique centralizado */
+}
+
+.textosecundario[b-w408s0xbqx] {
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 400;
+    color: #414D4D;
+    width: 906px;
+    height: 50px;
+    text-align: center; /* Garante que o texto fique centralizado */
+    padding-bottom: 16px;
+}
+
+/* Container que garante 323px de distância dos limites da página */
+.container-boxes[b-w408s0xbqx] {
+    width: 100%;
+    padding: 0 323px; /* 323px à esquerda e à direita */
+    box-sizing: border-box;
+}
+
+.boxes[b-w408s0xbqx] {
+    display: flex;
+    gap: 16px; /* Espaço entre os boxes */
+    margin-top: 20px; /* Espaço entre o texto secundário e os boxes */
+}
+
+.box[b-w408s0xbqx] {
+    width: 352px;
+    height: 245px;
+    background: #E8F2F3;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column; /* Organiza a imagem e o título verticalmente */
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Estilo para a imagem dentro de cada box */
+.box-img[b-w408s0xbqx] {
+    width: 320px;
+    height: 128px;
+    margin: 16px 16px 102px 16px; /* 16px em cima, esquerda e direita; 102px embaixo */
+}
+
+/* Estilo para o título abaixo da imagem */
+.box-title[b-w408s0xbqx] {
+    width: 126px;
+    height: 33px;
+    margin-top: -94px; /* Ajuste para ficar 8px abaixo da imagem */
+    font-family: "Poppins";
+    font-size: 24px;
+    white-space: nowrap;
+    letter-spacing: 0;
+    color: #272E2E;
+    text-align: left; /* Alinha o texto à esquerda */
+    align-self: flex-start; /* Faz o título se alinhar à esquerda dentro da box */
+    padding-left: 16px; /* Mesmo espaçamento da imagem */
+    font-weight: 500;
+}
+
+
+.box-text[b-w408s0xbqx] {
+    width: 318px;
+    height: 36px;
+    margin-top: 8px; /* Garante que fique 8px abaixo do título */
+    font-family: "Sora";
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #414D4D;
+    text-align: left; /* Alinha o texto à esquerda */
+    align-self: flex-start; /* Faz o título se alinhar à esquerda dentro da box */
+    padding-left: 16px;
+    font-weight: 300;
+}
+
+/* Texto abaixo das boxes */
+.final-text[b-w408s0xbqx] {
+    width: 678px;
+    height: 13px;
+    margin-top: 28px; /* Espaço de 28px abaixo das boxes */
+    font-family: "Sora";
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    text-align: center; /* Centraliza o texto na página */
+    align-self: center; /* Garante que fique alinhado no centro caso esteja dentro de um flex container */
+}
+/* /componentes/ComercialCards.razor.rz.scp.css */
+.ApoioPage[b-nilh05x4c5] {
+    height: 710px;
+    background: #fff;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+.header-line1[b-nilh05x4c5] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-nilh05x4c5] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.SetaTras[b-nilh05x4c5] {
+    margin-left: 332px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-nilh05x4c5] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+/* Container principal com 323px de padding lateral */
+.container-boxes[b-nilh05x4c5] {
+    width: 100%;
+    padding: 0 323px;
+    box-sizing: border-box;
+}
+
+/* Cada linha de boxes com espaçamento horizontal de 16px */
+.boxes[b-nilh05x4c5] {
+    display: flex;
+    gap: 16px;
+}
+
+/* Adiciona um espaçamento superior de 60px apenas na primeira linha de boxes */
+.container-boxes .boxes:first-child[b-nilh05x4c5] {
+    margin-top: 60px;
+}
+
+/* Espaçamento vertical de 16px entre as demais linhas de boxes */
+.boxes + .boxes[b-nilh05x4c5] {
+    margin-top: 16px;
+}
+
+.box[b-nilh05x4c5] {
+    width: 352px;
+    height: 245px;
+    background: #E8F2F3;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+.box-img[b-nilh05x4c5] {
+    width: 320px;
+    height: 128px;
+    margin: 16px 16px 102px 16px;
+}
+
+.box-title[b-nilh05x4c5] {
+    width: 126px;
+    height: 33px;
+    margin-top: -94px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    white-space: nowrap;
+    letter-spacing: 0;
+    color: #272E2E;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 16px;
+    font-weight: 500;
+}
+
+.box-text[b-nilh05x4c5] {
+    width: 318px;
+    height: 36px;
+    margin-top: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #414D4D;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 16px;
+    font-weight: 300;
+}
+
+
+.TextosAnteriores[b-nilh05x4c5] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextoAtual[b-nilh05x4c5] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 8px;
+}
+/* /componentes/Cookies.razor.rz.scp.css */
+.cookie[b-i103gbv6iu] {
+    height: 56px;
+    background: #D1F0EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 130px;
+}
+
+.texto-container[b-i103gbv6iu] {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.texto[b-i103gbv6iu] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #0D3439;
+}
+
+.sublinhado[b-i103gbv6iu] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #1B7C87;
+    text-decoration: underline #1B7C87;
+}
+
+.fechar-aviso[b-i103gbv6iu] {
+    position: absolute;
+    right: 130px;
+    width: 116px;
+    height: 40px;
+    top: 50%;
+    color: #3A726D;
+    transform: translateY(-50%);
+    background-color: #F0FAF9;
+    border: none;
+    border-radius: 8px;
+    font-family: "Sora";
+    font-size: 14px;
+    color: #0D3439;
+    cursor: pointer;
+}
+/* /componentes/Introdutoria.razor.rz.scp.css */
+.introdutor[b-av9hrelvtk] {
+    height: 296px;
+    background: #E8F2F3;
+    display: flex;
+    padding: 0 130px;
+    justify-content: space-between; 
+}
+
+.introdutorsec[b-av9hrelvtk] {
+    flex-direction: column;
+}
+
+.primeirotexto[b-av9hrelvtk] {
+    padding-top: 62px;
+    white-space: nowrap;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #6ACFC7;
+    width: 296px;
+    height: 22px;
+}
+
+.p primeirotexto[b-av9hrelvtk] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #6ACFC7;
+    width: 296px;
+    height: 22px;
+}
+
+
+.titulo[b-av9hrelvtk] {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 56px;
+    font-weight: 500;
+    color: #12444A;
+    width: 684px;
+    height: 79px;
+    padding-bottom: 8px;
+}
+
+.p titulo[b-av9hrelvtk] {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 56px;
+    font-weight: 500;
+    color: #12444A;
+    width: 684px;
+    height: 79px;
+    padding-bottom: 8px;
+}
+
+
+.descricao[b-av9hrelvtk] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #414D4D;
+    width: 544px;
+    height: 46px;
+}
+
+
+.p descricao[b-av9hrelvtk] {
+  /*  margin: 0;*/
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #414D4D;
+    width: 544px;
+    height: 46px;
+}
+
+
+
+.imagem[b-av9hrelvtk] {
+    max-width: 260px;
+    height: auto;
+    display: flex;
+    padding-right: 21px;
+}
+@code {
+
+}
+/* /componentes/NewsLetter.razor.rz.scp.css */
+.News[b-7ujz4e1okv] {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente todos os filhos */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 282px;
+    background: #4C969E;
+    padding: 0 130px;
+}
+
+.TituloNewsLetter[b-7ujz4e1okv] {
+    white-space: nowrap;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    color: #0D0F0F;
+    width: 684px;
+    height: 79px;
+    text-align: center; /* Texto centralizado */
+    padding-bottom: 16px;
+}
+
+.Subtitulo[b-7ujz4e1okv] {
+    width: 578px;
+    height: 22px;
+    color: #F2F4F4;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center; /* Texto centralizado */
+    padding-bottom: 32px;
+}
+
+/* Container da caixa de e-mail centralizada */
+.InputWrapper[b-7ujz4e1okv] {
+    position: relative;
+    width: 538px;
+    height: 48px;
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+}
+
+.caixaDETexto[b-7ujz4e1okv] {
+    width: 538px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    opacity: 1;
+}
+/* Botão posicionado dentro da caixa, a 4px da direita */
+.BotaoSubscrever[b-7ujz4e1okv] {
+    position: absolute;
+    top: 4px; 
+    left: calc(100% - 113px - 4px); 
+    bottom: 4px;
+    width: 113px;
+    height: 40px;
+    background: #1B7C87;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    opacity: 1;
+}
+/* /componentes/NovoTicketApoioATOMgest.razor.rz.scp.css */
+.Ticket[b-i0kxi82ra4] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+
+.botaoEnviarTicket[b-i0kxi82ra4] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 40px;
+    margin-top: 30px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-i0kxi82ra4] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-i0kxi82ra4] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-i0kxi82ra4] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-i0kxi82ra4] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+
+
+.TextosAnteriores[b-i0kxi82ra4] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextosAnteriores2[b-i0kxi82ra4] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.TextoAtual[b-i0kxi82ra4] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 48px;
+}
+
+.header-line1[b-i0kxi82ra4] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-i0kxi82ra4] {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.SetaTras[b-i0kxi82ra4] {
+    margin-left: 482px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-i0kxi82ra4] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.TextoDeInformacao[b-i0kxi82ra4] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-i0kxi82ra4] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-i0kxi82ra4] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-i0kxi82ra4] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-i0kxi82ra4]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-i0kxi82ra4]::after {
+        display: block;
+    }
+
+
+
+
+.UploadedFiles[b-i0kxi82ra4] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-i0kxi82ra4] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-i0kxi82ra4] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-i0kxi82ra4] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-i0kxi82ra4] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
+/* /componentes/NovoTicketApoioFinanceiro.razor.rz.scp.css */
+.Ticket[b-xmzjctw1d1] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+
+.botaoEnviarTicket[b-xmzjctw1d1] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 40px;
+    margin-top: 30px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-xmzjctw1d1] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-xmzjctw1d1] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-xmzjctw1d1] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-xmzjctw1d1] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+
+
+.TextosAnteriores[b-xmzjctw1d1] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextosAnteriores2[b-xmzjctw1d1] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.TextoAtual[b-xmzjctw1d1] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 48px;
+}
+
+.header-line1[b-xmzjctw1d1] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-xmzjctw1d1] {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.SetaTras[b-xmzjctw1d1] {
+    margin-left: 482px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-xmzjctw1d1] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.TextoDeInformacao[b-xmzjctw1d1] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-xmzjctw1d1] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-xmzjctw1d1] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-xmzjctw1d1] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-xmzjctw1d1]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-xmzjctw1d1]::after {
+        display: block;
+    }
+
+
+
+
+.UploadedFiles[b-xmzjctw1d1] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-xmzjctw1d1] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-xmzjctw1d1] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-xmzjctw1d1] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-xmzjctw1d1] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
+/* /componentes/NovoTicketApoioHeadline.razor.rz.scp.css */
+.Ticket[b-1394do8wni] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+
+.botaoEnviarTicket[b-1394do8wni] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 40px;
+    margin-top: 30px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-1394do8wni] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-1394do8wni] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-1394do8wni] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-1394do8wni] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+
+
+.TextosAnteriores[b-1394do8wni] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextosAnteriores2[b-1394do8wni] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.TextoAtual[b-1394do8wni] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 48px;
+}
+
+.header-line1[b-1394do8wni] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-1394do8wni] {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.SetaTras[b-1394do8wni] {
+    margin-left: 482px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-1394do8wni] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.TextoDeInformacao[b-1394do8wni] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-1394do8wni] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-1394do8wni] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-1394do8wni] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-1394do8wni]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-1394do8wni]::after {
+        display: block;
+    }
+
+
+
+
+.UploadedFiles[b-1394do8wni] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-1394do8wni] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-1394do8wni] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-1394do8wni] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-1394do8wni] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
+/* /componentes/NovoTicketApoioPROtextil.razor.rz.scp.css */
+.Ticket[b-kwz0tn37fg] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+
+.botaoEnviarTicket[b-kwz0tn37fg] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 40px;
+    margin-top: 30px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-kwz0tn37fg] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-kwz0tn37fg] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-kwz0tn37fg] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-kwz0tn37fg] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+
+
+.TextosAnteriores[b-kwz0tn37fg] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextosAnteriores2[b-kwz0tn37fg] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.TextoAtual[b-kwz0tn37fg] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 48px;
+}
+
+.header-line1[b-kwz0tn37fg] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-kwz0tn37fg] {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.SetaTras[b-kwz0tn37fg] {
+    margin-left: 482px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-kwz0tn37fg] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.TextoDeInformacao[b-kwz0tn37fg] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-kwz0tn37fg] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-kwz0tn37fg] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-kwz0tn37fg] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-kwz0tn37fg]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-kwz0tn37fg]::after {
+        display: block;
+    }
+
+
+
+
+.UploadedFiles[b-kwz0tn37fg] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-kwz0tn37fg] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-kwz0tn37fg] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-kwz0tn37fg] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-kwz0tn37fg] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
+/* /componentes/NovoTicketComercialATOMgest.razor.rz.scp.css */
+.Ticket[b-44g6pperxa] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-44g6pperxa] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-44g6pperxa] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-44g6pperxa] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-44g6pperxa] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 40px;
+    margin-top: 30px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-44g6pperxa] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-44g6pperxa] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-44g6pperxa] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+
+.form-group[b-44g6pperxa] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    margin-bottom: 15px;
+}
+
+
+.TextosAnteriores[b-44g6pperxa] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextosAnteriores2[b-44g6pperxa] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.TextoAtual[b-44g6pperxa] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 48px;
+}
+
+.header-line1[b-44g6pperxa] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-44g6pperxa] {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.SetaTras[b-44g6pperxa] {
+    margin-left: 482px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-44g6pperxa] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.TextoDeInformacao[b-44g6pperxa] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-44g6pperxa] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-44g6pperxa] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-44g6pperxa] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-44g6pperxa]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-44g6pperxa]::after {
+        display: block;
+    }
+
+.UploadedFiles ul[b-44g6pperxa] {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+.file-item[b-44g6pperxa] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.file-size[b-44g6pperxa] {
+    font-size: 0.85em;
+    color: gray;
+}
+
+.UploadedFiles[b-44g6pperxa] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-44g6pperxa] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-44g6pperxa] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-44g6pperxa] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-44g6pperxa] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
+
+
+
+.file-info[b-44g6pperxa] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.file-icon[b-44g6pperxa] {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+/* /componentes/NovoTicketComercialIT.razor.rz.scp.css */
+.Ticket[b-n163obtqxv] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-n163obtqxv] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-n163obtqxv] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-n163obtqxv] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-n163obtqxv] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 40px;
+    margin-top: 30px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-n163obtqxv] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-n163obtqxv] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-n163obtqxv] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+
+.form-group[b-n163obtqxv] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    margin-bottom: 15px;
+}
+
+
+.TextosAnteriores[b-n163obtqxv] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextosAnteriores2[b-n163obtqxv] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.TextoAtual[b-n163obtqxv] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 48px;
+}
+
+.header-line1[b-n163obtqxv] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-n163obtqxv] {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.SetaTras[b-n163obtqxv] {
+    margin-left: 482px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-n163obtqxv] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.TextoDeInformacao[b-n163obtqxv] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-n163obtqxv] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-n163obtqxv] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-n163obtqxv] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-n163obtqxv]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-n163obtqxv]::after {
+        display: block;
+    }
+
+.UploadedFiles ul[b-n163obtqxv] {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+.file-item[b-n163obtqxv] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.file-size[b-n163obtqxv] {
+    font-size: 0.85em;
+    color: gray;
+}
+
+.UploadedFiles[b-n163obtqxv] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-n163obtqxv] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-n163obtqxv] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-n163obtqxv] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-n163obtqxv] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
+
+
+
+.file-info[b-n163obtqxv] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.file-icon[b-n163obtqxv] {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+/* /componentes/NovoTicketComercialOutros.razor.rz.scp.css */
+.Ticket[b-1hqltfapun] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-1hqltfapun] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-1hqltfapun] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-1hqltfapun] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-1hqltfapun] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 40px;
+    margin-top: 30px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-1hqltfapun] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-1hqltfapun] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-1hqltfapun] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+
+.form-group[b-1hqltfapun] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    margin-bottom: 15px;
+}
+
+
+.TextosAnteriores[b-1hqltfapun] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextosAnteriores2[b-1hqltfapun] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.TextoAtual[b-1hqltfapun] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 48px;
+}
+
+.header-line1[b-1hqltfapun] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-1hqltfapun] {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.SetaTras[b-1hqltfapun] {
+    margin-left: 482px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-1hqltfapun] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.TextoDeInformacao[b-1hqltfapun] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-1hqltfapun] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-1hqltfapun] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-1hqltfapun] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-1hqltfapun]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-1hqltfapun]::after {
+        display: block;
+    }
+
+.UploadedFiles ul[b-1hqltfapun] {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+.file-item[b-1hqltfapun] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.file-size[b-1hqltfapun] {
+    font-size: 0.85em;
+    color: gray;
+}
+
+.UploadedFiles[b-1hqltfapun] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-1hqltfapun] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-1hqltfapun] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-1hqltfapun] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-1hqltfapun] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
+
+
+
+.file-info[b-1hqltfapun] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.file-icon[b-1hqltfapun] {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+/* /componentes/NovoTicketComercialPROtextil.razor.rz.scp.css */
+.Ticket[b-6ts5dh4awy] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-6ts5dh4awy] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-6ts5dh4awy] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-6ts5dh4awy] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-6ts5dh4awy] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 40px;
+    margin-top: 30px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-6ts5dh4awy] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-6ts5dh4awy] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-6ts5dh4awy] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+
+.form-group[b-6ts5dh4awy] {
+    display: flex;
+ flex-direction: column; /* Organiza os campos verticalmente */
+ align-items: flex-start; /* Alinha os itens à esquerda */
+margin-bottom: 15px;
+
+}
+
+
+.TextosAnteriores[b-6ts5dh4awy] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextosAnteriores2[b-6ts5dh4awy] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.TextoAtual[b-6ts5dh4awy] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 48px;
+}
+
+.header-line1[b-6ts5dh4awy] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-6ts5dh4awy] {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.SetaTras[b-6ts5dh4awy] {
+    margin-left: 482px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-6ts5dh4awy] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.TextoDeInformacao[b-6ts5dh4awy] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-6ts5dh4awy] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-6ts5dh4awy] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-6ts5dh4awy] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-6ts5dh4awy]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-6ts5dh4awy]::after {
+        display: block;
+    }
+
+.UploadedFiles ul[b-6ts5dh4awy] {
+    list-style: none;
+    padding: 0;
+}
+
+ 
+
+
+.file-item[b-6ts5dh4awy] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.file-size[b-6ts5dh4awy] {
+    font-size: 0.85em;
+    color: gray;
+}
+
+.UploadedFiles[b-6ts5dh4awy] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-6ts5dh4awy] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-6ts5dh4awy] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-6ts5dh4awy] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-6ts5dh4awy] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
+
+
+
+.file-info[b-6ts5dh4awy] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.file-icon[b-6ts5dh4awy] {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+/* /componentes/Rodape.razor.rz.scp.css */
+.footer[b-txnsjueod0] {
+    height: 413px;
+    background: #0D3439;
+    display: flex;
+    padding: 48px;
+    justify-content: center; 
+}
+
+.footersec[b-txnsjueod0] {
+    display: flex;             
+    flex-direction: row;
+    align-items: flex-start;  
+    justify-content: space-between; 
+    width: 100%;               
+    padding-left: 92px;       
+}
+
+.footeresq[b-txnsjueod0] {
+    display: flex;
+    flex-direction: column;
+    padding-top: 52px; 
+}
+
+
+.logoGOT[b-txnsjueod0] {
+    padding-bottom: 9px;
+}
+
+.ComecaAqui[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6ACFC7;
+    padding-bottom: 42px;
+}
+
+
+.p ComecaAqui[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6ACFC7;
+    padding-bottom: 42px;
+}
+
+
+.PowerBy[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.p PowerBy[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora" ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.logoInforcavado[b-txnsjueod0] {
+    padding-bottom: 16px;
+}
+
+
+.Infos[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.p Infos[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora" ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.Follow[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p Follow[b-txnsjueod0] {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+.social-icons[b-txnsjueod0] {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+
+.EstamosEm[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p EstamosEm[b-txnsjueod0] {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+.Localizacao[b-txnsjueod0] {
+    letter-spacing: 0px;
+    color: #F9F9FF;
+    font-family: "Poppins";
+    width: 156px;
+    height: 73px;
+}
+
+
+
+
+
+.Contacnos[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p Contacnos[b-txnsjueod0] {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+}
+
+
+.Contacto[b-txnsjueod0] {
+    letter-spacing: 0px;
+    color: #F9F9FF;
+    font-family: "Poppins";
+    width: 224px;
+    height: 24px;
+}
+
+
+.icon[b-txnsjueod0] {
+    width: 40px;
+    height: 40px;
+ margin-top: auto;
+  }

@@ -1,0 +1,68 @@
+﻿@using Blazored.SessionStorage
+@inject ISessionStorageService SessionStorage
+
+<style>
+    .aviso {
+        position: relative;
+        height: 32px;
+        background: #0D3439;
+        display: flex;
+        align-items: center;
+        padding: 0 130px;
+    }
+
+    .textoaviso {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff !important;
+        text-decoration: underline white;
+        text-align: center;
+    }
+
+    .fechar-aviso {
+        margin-left: auto;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+    }
+
+
+</style>
+
+@if (AvisoVisivel)
+{
+    <header class="aviso">
+        <a href="https://inforcavado.com" class="textoaviso" target="_blank">
+            Publicidade ou avisos importantes para cliente
+        </a>
+        <span class="material-symbols-outlined" style="color:white; margin-left:1200px;" @onclick="EsconderAviso">
+            close
+        </span>
+    </header>
+}
+
+
+<!-- Adiciona a fonte do Google Icons -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+
+
+
+@code {
+    private bool AvisoVisivel = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var avisoOculto = await SessionStorage.GetItemAsync<bool>("avisoOculto");
+        AvisoVisivel = !avisoOculto;
+    }
+
+    private async Task EsconderAviso()
+    {
+        AvisoVisivel = false;
+        await SessionStorage.SetItemAsync("avisoOculto", true);
+    }
+}

@@ -1,0 +1,163 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = GOTinforcavado
+build_property.RootNamespace = GOTinforcavado
+build_property.ProjectDir = C:\Users\gonca\OneDrive\Ambiente de Trabalho\GOTinforcavado\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\gonca\OneDrive\Ambiente de Trabalho\GOTinforcavado
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/Acompanhapage.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcQWNvbXBhbmhhcGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/SucessoTicket.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcU3VjZXNzb1RpY2tldC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/Acompanha.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNvbXBhbmhhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/Apoio.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBvaW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/Comercial.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tZXJjaWFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/Sucesso.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VjZXNzby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/TicketApoioATOMgest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0QXBvaW9BVE9NZ2VzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/TicketApoioFinanceiro.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0QXBvaW9GaW5hbmNlaXJvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/TicketApoioHeadline.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0QXBvaW9IZWFkbGluZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/TicketApoioPROtextil.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0QXBvaW9QUk90ZXh0aWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/TicketComercialATOMgest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0Q29tZXJjaWFsQVRPTWdlc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/TicketComercialeITrazor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0Q29tZXJjaWFsZUlUcmF6b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/TicketComercialOutros.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0Q29tZXJjaWFsT3V0cm9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/Pages/TicketComercialPROtextil.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0Q29tZXJjaWFsUFJPdGV4dGlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/ApoioCards.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcQXBvaW9DYXJkcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-9isrxdypiv
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/Avisos.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcQXZpc29zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-wl8ryga4ls
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/Cabecalho.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcQ2FiZWNhbGhvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-yhqzdqbb95
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/CardsSpace.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcQ2FyZHNTcGFjZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-w408s0xbqx
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/ComercialCards.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcQ29tZXJjaWFsQ2FyZHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-nilh05x4c5
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/Cookies.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcQ29va2llcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-i103gbv6iu
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/Introdutoria.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcSW50cm9kdXRvcmlhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-av9hrelvtk
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/NewsLetter.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcTmV3c0xldHRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7ujz4e1okv
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/NovoTicketApoioATOMgest.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcTm92b1RpY2tldEFwb2lvQVRPTWdlc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-i0kxi82ra4
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/NovoTicketApoioFinanceiro.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcTm92b1RpY2tldEFwb2lvRmluYW5jZWlyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-xmzjctw1d1
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/NovoTicketApoioHeadline.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcTm92b1RpY2tldEFwb2lvSGVhZGxpbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1394do8wni
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/NovoTicketApoioPROtextil.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcTm92b1RpY2tldEFwb2lvUFJPdGV4dGlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-kwz0tn37fg
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/NovoTicketComercialATOMgest.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcTm92b1RpY2tldENvbWVyY2lhbEFUT01nZXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-44g6pperxa
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/NovoTicketComercialIT.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcTm92b1RpY2tldENvbWVyY2lhbElULnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-n163obtqxv
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/NovoTicketComercialOutros.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcTm92b1RpY2tldENvbWVyY2lhbE91dHJvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-1hqltfapun
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/NovoTicketComercialPROtextil.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcTm92b1RpY2tldENvbWVyY2lhbFBST3RleHRpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-6ts5dh4awy
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/GOTinforcavado/componentes/Rodape.razor]
+build_metadata.AdditionalFiles.TargetPath = Y29tcG9uZW50ZXNcUm9kYXBlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-txnsjueod0

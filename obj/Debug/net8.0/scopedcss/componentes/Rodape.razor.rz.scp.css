@@ -1,0 +1,190 @@
+.footer[b-txnsjueod0] {
+    height: 413px;
+    background: #0D3439;
+    display: flex;
+    padding: 48px;
+    justify-content: center; 
+}
+
+.footersec[b-txnsjueod0] {
+    display: flex;             
+    flex-direction: row;
+    align-items: flex-start;  
+    justify-content: space-between; 
+    width: 100%;               
+    padding-left: 92px;       
+}
+
+.footeresq[b-txnsjueod0] {
+    display: flex;
+    flex-direction: column;
+    padding-top: 52px; 
+}
+
+
+.logoGOT[b-txnsjueod0] {
+    padding-bottom: 9px;
+}
+
+.ComecaAqui[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6ACFC7;
+    padding-bottom: 42px;
+}
+
+
+.p ComecaAqui[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6ACFC7;
+    padding-bottom: 42px;
+}
+
+
+.PowerBy[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.p PowerBy[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora" ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.logoInforcavado[b-txnsjueod0] {
+    padding-bottom: 16px;
+}
+
+
+.Infos[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.p Infos[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora" ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.Follow[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p Follow[b-txnsjueod0] {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+.social-icons[b-txnsjueod0] {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+
+.EstamosEm[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p EstamosEm[b-txnsjueod0] {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+.Localizacao[b-txnsjueod0] {
+    letter-spacing: 0px;
+    color: #F9F9FF;
+    font-family: "Poppins";
+    width: 156px;
+    height: 73px;
+}
+
+
+
+
+
+.Contacnos[b-txnsjueod0] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p Contacnos[b-txnsjueod0] {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+}
+
+
+.Contacto[b-txnsjueod0] {
+    letter-spacing: 0px;
+    color: #F9F9FF;
+    font-family: "Poppins";
+    width: 224px;
+    height: 24px;
+}
+
+
+.icon[b-txnsjueod0] {
+    width: 40px;
+    height: 40px;
+ margin-top: auto;
+  }

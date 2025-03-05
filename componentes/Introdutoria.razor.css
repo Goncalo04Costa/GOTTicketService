@@ -1,0 +1,89 @@
+﻿.introdutor {
+    height: 296px;
+    background: #E8F2F3;
+    display: flex;
+    padding: 0 130px;
+    justify-content: space-between; 
+}
+
+.introdutorsec {
+    flex-direction: column;
+}
+
+.primeirotexto {
+    padding-top: 62px;
+    white-space: nowrap;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #6ACFC7;
+    width: 296px;
+    height: 22px;
+}
+
+.p primeirotexto {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #6ACFC7;
+    width: 296px;
+    height: 22px;
+}
+
+
+.titulo {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 56px;
+    font-weight: 500;
+    color: #12444A;
+    width: 684px;
+    height: 79px;
+    padding-bottom: 8px;
+}
+
+.p titulo {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 56px;
+    font-weight: 500;
+    color: #12444A;
+    width: 684px;
+    height: 79px;
+    padding-bottom: 8px;
+}
+
+
+.descricao {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #414D4D;
+    width: 544px;
+    height: 46px;
+}
+
+
+.p descricao {
+  /*  margin: 0;*/
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #414D4D;
+    width: 544px;
+    height: 46px;
+}
+
+
+
+.imagem {
+    max-width: 260px;
+    height: auto;
+    display: flex;
+    padding-right: 21px;
+}
+@code {
+
+}

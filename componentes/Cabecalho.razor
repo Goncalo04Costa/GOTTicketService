@@ -1,0 +1,130 @@
+﻿<style>
+    /*#region Componentes.css*/
+
+    .cabecalho {
+        height: 72px;
+        background: #E8F2F3;
+        /*  width: 100%;*/
+        display: flex;
+        align-items: center;
+        padding: 0 130px;
+        justify-content: space-between;
+    }
+
+    .cabecalhoesq {
+        display: flex;
+        align-items: center;
+    }
+
+    .logoGOT {
+        padding-right: 20px;
+    }
+
+    .byinforcavadologo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .byInforcavado {
+        margin: 0;
+        font-family: "Poppins";
+        font-size: 10px;
+        font-weight: 500;
+        color: #17585F /*var(--primary-300 )*/;
+    }
+
+
+    .verticket {
+        width: fit-content;
+        height: 40px;
+        background: #17585F;
+        color: white;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0 16px 0 16px;
+        margin-right: 4px;
+    }
+
+
+
+        .verticket p, .website p {
+            font-family: "Sora";
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+
+    .website {
+        width: fit-content;
+        border: 1px solid #B2BEBE;
+        height: 40px;
+        color: var(--neutral-500);
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0 16px 0 16px;
+    }
+
+</style>
+<header class="cabecalho">
+    
+    <div class="cabecalhoesq">
+        <img class="logoGOT" src="../imagens/Logo-growing-together-prioritario-cores.svg" alt="Logo GOT" />
+  
+    @if (imagem)
+    {
+        <div class="byinforcavadologo"> 
+            <img class="logoInfor" src="../imagens/inforcavado.svg" alt="Logo Inforcavado" style="width:24px; height:24px" />
+
+
+
+        <p class="byInforcavado">
+            ByInforcávado
+        </p>
+        </div>
+    }
+    </div>
+
+    <div class="cabecalhoesq">
+
+    
+    @if (botoesrf != null)
+    {
+        
+    }
+    else
+    {
+        @if (botoes == Botoes.Acompanhamento)
+        {
+
+                <a href="/AcompanhaTicket" class="verticket" target="_blank" style="text-decoration: none;">
+                    <p> Acompanhar Ticket</p>
+                </a>
+
+                <a href="https://inforcavado.com" class="website" target="_blank" style="text-decoration: none;">
+                    <p>Website Inforcavado</p>
+                </a>
+
+            
+        }
+    }
+    </div>
+</header>
+
+@code {
+
+    [Parameter] public bool imagem { get; set; }
+
+    [Parameter] public Botoes botoes { get; set; } = Botoes.Acompanhamento;
+
+    [Parameter] public RenderFragment? botoesrf { get; set; }
+
+    public enum Botoes
+    {
+        Acompanhamento = 1,
+        Novo = 2
+    }
+}

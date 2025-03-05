@@ -1,0 +1,125 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\obj\\Debug\\net8.0\\compressed\\q0ux8x4cbz.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GOTinforcavado.styles.css",
+      "PackagePath": "staticwebassets\\GOTinforcavado.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\Inforcávado-monocromática-negativa-secundária.svg",
+      "PackagePath": "staticwebassets\\imagens\\Inforcávado-monocromática-negativa-secundária.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\Login GOT image (896x1017).png",
+      "PackagePath": "staticwebassets\\imagens\\Login GOT image (896x1017).png"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\Logo-growing-together-mono-negativo.svg",
+      "PackagePath": "staticwebassets\\imagens\\Logo-growing-together-mono-negativo.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\Logo-growing-together-prioritario-cores.svg",
+      "PackagePath": "staticwebassets\\imagens\\Logo-growing-together-prioritario-cores.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\Protextil- Prioritário Horizontal Cores (positivo).svg",
+      "PackagePath": "staticwebassets\\imagens\\Protextil- Prioritário Horizontal Cores (positivo).svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\atomgest- Prioritária Horizontal Cores (positiva.svg",
+      "PackagePath": "staticwebassets\\imagens\\atomgest- Prioritária Horizontal Cores (positiva.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\close_20dp_E8EAED_FILL0_wght400_GRAD0_opsz20.svg",
+      "PackagePath": "staticwebassets\\imagens\\close_20dp_E8EAED_FILL0_wght400_GRAD0_opsz20.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\default.png",
+      "PackagePath": "staticwebassets\\imagens\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\financeiro.PNG",
+      "PackagePath": "staticwebassets\\imagens\\financeiro.PNG"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\i-docs-text.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-docs-text.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\i-excel.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-excel.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\i-facebook.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\i-instagram.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\i-linkedin.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-linkedin.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\i-other.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-other.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\i-preview-artdocs.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-preview-artdocs.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\i-youtube.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-youtube.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\inforcavado.svg",
+      "PackagePath": "staticwebassets\\imagens\\inforcavado.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\it.PNG",
+      "PackagePath": "staticwebassets\\imagens\\it.PNG"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\outros.PNG",
+      "PackagePath": "staticwebassets\\imagens\\outros.PNG"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\imagens\\smile.png",
+      "PackagePath": "staticwebassets\\imagens\\smile.png"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GOTinforcavado.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GOTinforcavado.props",
+      "PackagePath": "build\\GOTinforcavado.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GOTinforcavado.props",
+      "PackagePath": "buildMultiTargeting\\GOTinforcavado.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GOTinforcavado.props",
+      "PackagePath": "buildTransitive\\GOTinforcavado.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

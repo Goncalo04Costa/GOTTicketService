@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D722FF2-9CEA-4E4E-8976-B3E12E8E0515}|GOTinforcavado.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\gotinforcavado\\componentes\\acompanhapage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D722FF2-9CEA-4E4E-8976-B3E12E8E0515}|GOTinforcavado.csproj|solutionrelative:componentes\\acompanhapage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFBB8FC-9121-4F1A-9852-D263E8541126}|..\\Shared\\Shared.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\shared\\models\\comentariocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFBB8FC-9121-4F1A-9852-D263E8541126}|..\\Shared\\Shared.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\shared\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFBB8FC-9121-4F1A-9852-D263E8541126}|..\\Shared\\Shared.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\shared\\models\\uploadedfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFBB8FC-9121-4F1A-9852-D263E8541126}|..\\Shared\\Shared.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\shared\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904EAEAB-776F-4A7C-9BD5-A922FB3F9929}|..\\APIGOTinforcavado\\APIGOTinforcavado.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\apigotinforcavado\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Acompanhapage.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\componentes\\Acompanhapage.razor",
+              "RelativeDocumentMoniker": "componentes\\Acompanhapage.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\GOTinforcavado\\componentes\\Acompanhapage.razor",
+              "RelativeToolTip": "componentes\\Acompanhapage.razor",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAiwKsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T11:33:59.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\Shared\\models\\Utilizador.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\models\\Utilizador.cs",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\Shared\\models\\Utilizador.cs",
+              "RelativeToolTip": "..\\Shared\\models\\Utilizador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:59:11.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Comentariocs.cs",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\Shared\\models\\Comentariocs.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\models\\Comentariocs.cs",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\Shared\\models\\Comentariocs.cs",
+              "RelativeToolTip": "..\\Shared\\models\\Comentariocs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:59:32.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UploadedFiles.cs",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\Shared\\models\\UploadedFiles.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\models\\UploadedFiles.cs",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\Shared\\models\\UploadedFiles.cs",
+              "RelativeToolTip": "..\\Shared\\models\\UploadedFiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:59:15.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\Shared\\models\\Ticket.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\Shared\\models\\Ticket.cs",
+              "RelativeToolTip": "..\\Shared\\models\\Ticket.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwDEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:59:23.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\APIGOTinforcavado\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\APIGOTinforcavado\\appsettings.json",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\APIGOTinforcavado\\appsettings.json",
+              "RelativeToolTip": "..\\APIGOTinforcavado\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-03T17:01:26.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NovoTicketApoioATOMgest.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor",
+              "RelativeDocumentMoniker": "..\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor",
+              "RelativeToolTip": "..\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAJcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T14:33:52.912Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
